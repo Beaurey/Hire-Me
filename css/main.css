@@ -62,16 +62,18 @@ h2 {
 
 p {
   line-height: 1.5;
-  font-size: 1.2em; }
+  font-size: 1em;
+  margin-bottom: 1em; }
 
 /* layout */
 .wrapper {
-  max-width: 700px;
+  max-width: 980px;
   margin: 0 auto; }
 
 .reason {
   margin: 20px 0 70px;
-  text-align: justify; }
+  text-align: justify;
+  clear: both; }
   .reason img {
     display: block;
     margin: 0 auto;
@@ -80,19 +82,22 @@ p {
     float: left;
     padding-right: 20px; }
 
+.reason-content {
+  display: inline-block;
+  width: 640px; }
+
 footer {
   text-align: center;
   height: 200px;
   background-color: #3A3A3A; }
-  footer p {
-    color: #F7E8EB;
-    margin-top: 20px; }
+  footer a {
+    color: #F7E8EB; }
   footer i {
     color: #F7E8EB;
     margin: 0 12px; }
-
-.icons {
-  padding-top: 50px; }
-
-body {
-  background-color: red; }
+  footer .icons {
+    padding: 15px 0; }
+  footer h3 {
+    color: #F7E8EB;
+    font-size: 1.5em;
+    padding-top: 15px; }
